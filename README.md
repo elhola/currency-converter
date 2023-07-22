@@ -1,4 +1,5 @@
-# Mycurrency
+# My currency
+<img width="1502" alt="Снимок экрана 2023-07-22 в 02 43 06" src="https://github.com/elhola/currency-converter/assets/25703908/a399dc51-0fe9-43ed-bf9d-406594289f1c">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
