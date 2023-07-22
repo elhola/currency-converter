@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(https://img2.akspic.ru/crops/3/5/5/2/22553/22553-gornyj_hrebet-gornyj_relef-gora-pejzazhi_gor-oblako-1920x1080.jpg);
+    background-size: cover;
+}

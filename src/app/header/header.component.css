@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ecf0f1;
+  overflow: hidden;
+}
+
+.header-container {
+  background-color: rgba(0, 0, 0, 0);
+  width: 90%;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #f2f2f2;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exchange-rates {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.exchange-rate {
+  text-align: center;
+}
+
+.exchange-rate p {
+  font-size: 18px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #eaeaea;
+  margin: 0;
+}

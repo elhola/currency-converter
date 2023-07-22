@@ -1,0 +1,119 @@
+/* Styling for the main-container */
+.main-container {
+  background-color: #f2f2f2;
+  width: 700px; 
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; 
+  overflow: hidden; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-container:hover {
+  animation: neon-glow 1s infinite;
+}
+
+.selection-cont {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: 700;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+  color: #555;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s ease-in-out;
+}
+
+select:focus {
+  outline: none;
+  border-color: #777;
+}
+
+button {
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  animation: neon-glow-button 1s infinite;
+  background-color: #27ae60;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  background-color: #a79fff;
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.result-container {
+  display: flex;
+  background-color: #b8a1ff;
+  margin: 10px;
+  width: 100%; 
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; 
+  overflow: hidden; 
+}
+
+.result-container:hover {
+  animation: neon-glow 1s infinite;
+}
+
+.result-container p {
+  color: #555;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ecf0f1;
+}
+
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px #6aff00, 0 0 10px #6aff00, 0 0 20px #6aff00;
+  }
+  50% {
+    box-shadow: 0 0 5px #a29bfe, 0 0 10px #a29bfe, 0 0 20px #a29bfe;
+  }
+}
